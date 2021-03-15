@@ -1,0 +1,73 @@
+/*      >>>>>Header<<<<<    */
+$back_color: #006666d6;
+
+.logo2 {
+   border-radius: 10px;
+    width: 75%;
+  height: 75%;  
+  margin-left: 80px;
+
+}
+
+.imgredes {
+  border-radius: 10px;
+  width: 35px;
+  height: 35px;
+  padding-bottom: 5px;
+ 
+}
+.redes {
+  
+  margin-top: 20px;
+  margin-right: 10px;
+}
+
+.navbar-toggler { 
+
+  background-color: $back_color;
+
+}
+
+  .nav {
+ background-image: url("../imagenes/fondo_atardecerarriba.jpg");
+  z-index: 1;
+  height: cover;
+  height: 200px;
+  width: 100%;
+
+}
+
+.nav-link {
+  margin-right: 1.5rem;
+  margin-left: 1.5rem;
+}
+  .navbar-nav {
+  background-color: $back_color;
+ 
+}
+.dropdown-menu {
+
+  background-color: $back_color;
+ }
+
+
+.dropdown-item {
+  color: white;
+}
+
+ ul {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+    list-style-type: none;
+    word-spacing: 50px;
+   
+  }
+
+  .navbar-brand {
+    
+    margin-left: -95px;
+    margin-top: -5px;
+    
+  }
+  

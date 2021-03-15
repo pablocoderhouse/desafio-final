@@ -1,0 +1,96 @@
+/*       >>>>>Precios<<<<<          */
+
+
+    tr {
+  background-color: #c0c5c800;
+
+  }
+
+
+         th {
+        
+        
+        font-size: 24px; 
+        
+        padding-top: 20px;
+        padding-bottom: 20px; 
+        border: solid 1px;
+        text-align: center;
+       }
+
+      td {
+        
+        color: black; 
+        font-size: 18px;
+        border: solid 1px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-family: 'Roboto', sans-serif;
+        font-style: italic;
+        font-weight: normal;
+        font-size: 0.8em;
+        letter-spacing: 3px;
+        text-align: center;
+      }
+
+     
+
+
+
+
+
+  @media (max-width: 640px) {
+        
+
+      table {
+        white: 100%;
+        border-collapse: colapse; 
+
+
+      }
+
+         table tr {
+          display: flex;
+          flex-direction: column;
+          border: solid 1px gray;
+          border-collapse: collapse;
+
+         }
+
+       table th{
+
+        display: none;
+        border: none;
+       }  
+      
+
+
+      table td { 
+          font-weight: bold;
+          font-size: .7rem;
+          text-align: center;
+          border: none;
+          
+
+       }
+
+      table td  [data-titulo]{
+        
+
+      }
+
+      table td[data-titulo]::before{
+            content: attr( data-titulo );  
+            display: block;
+            width: 100%;
+            
+           
+          
+            
+            color: red;
+            
+      }
+
+
+
+  }
